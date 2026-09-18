@@ -20,30 +20,29 @@ https://taskmanagement-v6wu.onrender.com/swagger-ui/index.html
 
 ## 📌 Project Overview
 
-The Task Management & Collaboration API allows users to securely register, log in, and manage their tasks through REST APIs.
+The **Task Management & Collaboration API** is a secure backend application built with **Java and Spring Boot** that provides REST APIs for user authentication and task management.
 
 The application implements:
 
-- User registration
-- User login
-- JWT authentication
-- Role-based authorization
-- Task CRUD operations
-- Task assignment
-- Task status management
-- Task priority management
-- Deadline management
-- Search and filtering
-- Pagination
-- Sorting
-- Input validation
-- Global exception handling
-- PostgreSQL database integration
-- Swagger/OpenAPI documentation
-- Secure password hashing using BCrypt
-- Docker deployment
-- Cloud deployment using Render
-- Neon PostgreSQL database
+* User registration and login
+* JWT-based authentication
+* Role-based authorization (`USER`, `ADMIN`)
+* Task CRUD operations
+* Task assignment and ownership management
+* Task status and priority management
+* Deadline management
+* Search and filtering
+* Pagination and sorting
+* Input validation
+* Global exception handling
+* Secure password hashing using BCrypt
+* PostgreSQL database integration with Neon
+* Swagger/OpenAPI API documentation
+* Docker containerization
+* Cloud deployment using Render
+
+The project demonstrates a layered backend architecture using **REST Controllers, Service Layer, Repository Layer, Spring Data JPA, Spring Security, and PostgreSQL**.
+
 
 ---
 
